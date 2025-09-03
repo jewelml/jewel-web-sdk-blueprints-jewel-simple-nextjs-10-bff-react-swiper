@@ -4,10 +4,7 @@
   "description": "Jewel ML example with Backend-for-Frontend architecture",
   "private": true,
   "scripts": {
-    "dev": "npm run dev:all",
-    "dev:all": "npm run server:install && npm run server:start & npm run nextjs:install && sleep 3 && npm run nextjs:start",
-    "dev:server": "cd server && npm run dev",
-    "dev:nextjs": "cd nextjs && npm run dev:port",
+    "dev": "npm run server:install && npm run server:start & npm run nextjs:install && sleep 3 && npm run nextjs:start",
     "server:install": "cd server && npm install",
     "nextjs:install": "cd nextjs && npm install",
     "server:start": "cd server && npm start",
