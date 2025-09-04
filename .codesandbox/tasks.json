@@ -19,33 +19,27 @@
     },
     "server:install": {
       "name": "server:install",
-      "command": "pnpm server:install",
-      "runAtStart": false
+      "command": "pnpm server:install"
     },
     "nextjs:install": {
       "name": "nextjs:install",
-      "command": "pnpm nextjs:install",
-      "runAtStart": false
+      "command": "pnpm nextjs:install"
     },
     "server:start": {
       "name": "server:start",
-      "command": "pnpm server:start",
-      "runAtStart": false
+      "command": "pnpm server:start"
     },
     "nextjs:start": {
       "name": "nextjs:start",
-      "command": "pnpm nextjs:start",
-      "runAtStart": false
+      "command": "pnpm nextjs:start"
     },
     "build": {
       "name": "build",
-      "command": "pnpm build",
-      "runAtStart": false
+      "command": "pnpm build"
     },
     "start": {
       "name": "start",
-      "command": "pnpm start",
-      "runAtStart": false
+      "command": "pnpm start"
     }
   }
 }
